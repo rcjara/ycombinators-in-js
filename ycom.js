@@ -1,4 +1,5 @@
-console.log("and here is the ycombinator in all its glory!: " + ((f) => {
+console.log("and here is the ycombinator in all its glory!: " +
+  ((f) => {
   return ((ycom) => {
     return f((x) => { return ycom(ycom)(x) });
   })((ycom) => {

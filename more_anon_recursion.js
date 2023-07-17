@@ -6,4 +6,4 @@ const anon = (f, n) => {
   }
 }
 
-console.log("more anonymous recursion: " + anon(anon, 6));
+console.log("more anonymous recursion: " + anon(anon, 5));

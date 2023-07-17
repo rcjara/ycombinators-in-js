@@ -1,16 +1,16 @@
-const result = ((f, n) => {
+const result = ((fact, n) => {
     if (n == 0) {
       return 1;
     } else {
-      return n * f(f, n - 1);
+      return n * fact(fact, n - 1);
     }
-  })((f, n) => {
+  })((fact, n) => {
     if (n == 0) {
       return 1;
     } else {
-      return n * f(f, n - 1);
+      return n * fact(fact, n - 1);
     }
   }
-, 6)
+, 5)
 
 console.log("from anonymous recursion: " + result);
