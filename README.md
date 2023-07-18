@@ -1,5 +1,5 @@
 # ycombinators-in-js
-Some javascript code aimed to build up an understanding of y combinators.  These were used as slides during a presentation given at the [recurse center] (www.recurse.com).  The slide probably won't make sense without the accompanying talk, but here they are all the same.
+Some javascript code aimed to build up an understanding of y combinators.  These were used as slides during a presentation given at the [recurse center](www.recurse.com).  The slide probably won't make sense without the accompanying talk, but here they are all the same.
 
 The preferred reading order is as follows:
 1. loop.js
